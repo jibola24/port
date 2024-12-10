@@ -1,0 +1,54 @@
+body{
+    border: 1rem solid green;
+}
+
+header{
+    border-top-width: 1rem;
+    border-left-width: 2rem;
+    border-style: solid;
+    border-color: red greenyellow green purple;
+    margin: 2rem 4rem;
+    /* border-top: 2rem;
+    border-left: 2rem;
+    border-right: 2rem;
+    border-bottom: 2rem;
+    border-color: red;
+    border-style: ridge; */
+}
+
+#img{
+    border: 1rem solid blue;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
+
+#name{
+    display: flex;
+    flex-direction: row;
+}
+
+#about{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 700px;
+}
+
+#logo{
+    display: flex;
+    flex-direction: row;
+}
+
+#hi{
+    font-size: 40px;
+     display: flex;
+    flex-direction: row; 
+}
+
+#hire{
+    background-color: green;
+    color: aliceblue;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 70px;
+}
